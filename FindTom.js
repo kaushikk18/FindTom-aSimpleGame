@@ -1,6 +1,6 @@
 var start = new Date().getTime();
 
-      function moveright() {
+      function moveimage() {
         var top = Math.random() * 400;
         var left = Math.random() * 1200;
 
@@ -11,7 +11,7 @@ var start = new Date().getTime();
       }
 
       function appearAfterDelay() {
-        setTimeout(moveright, Math.random() * 2000);
+        setTimeout(moveimage, Math.random() * 2000);
       }
 
       document.getElementById("picture").onclick = function () {
